@@ -8,6 +8,8 @@ interface HomeStyles {
   leftColumn: ViewStyle;
   rightColumn: ViewStyle;
   loadingText: TextStyle;
+  noQuestionsLeftHeader: TextStyle;
+  noQuestionsLeftSubheader: TextStyle;
   topRowText: TextStyle;
   questionTile: ViewStyle;
   questionTileContainer: ViewStyle;
@@ -48,6 +50,20 @@ export default StyleSheet.create<HomeStyles>({
     color: 'white',
     fontFamily: 'Montserrat-Medium',
     textAlign: 'center',
+  },
+  noQuestionsLeftHeader: {
+    color: 'white',
+    fontFamily: 'Montserrat-Bold',
+    textAlign: 'center',
+    fontSize: 34,
+    marginTop: 20,
+  },
+  noQuestionsLeftSubheader: {
+    marginTop: 20,
+    color: 'white',
+    fontFamily: 'Montserrat-Medium',
+    textAlign: 'center',
+    fontSize: 18,
   },
   topRowText: {
     color: 'white',

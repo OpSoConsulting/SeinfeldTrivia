@@ -1,21 +1,19 @@
 import React from 'react';
 import { 
   Text, 
-  TouchableOpacity,
-  ViewProps,
   View,
 } from 'react-native';
 import styles from './styles';
-import STButton, { Props as STButtonProps } from '../STButton';
+import CTButton, { Props as CTButtonProps } from '../CTButton';
 
 
-interface Props extends STButtonProps {
+interface Props extends CTButtonProps {
   handlePress: () => void;
   children?: any;
   size?: 'small' | 'medium' | 'large';
 }
 
-export default function STTextButton(props: Props) {
+export default function CTTextButton(props: Props) {
 
   let buttonSizeStyle = {};
   let textSizeStyle = {};
@@ -54,7 +52,7 @@ export default function STTextButton(props: Props) {
         ...styles.container,
       }}
     >
-      <STButton
+      <CTButton
         handlePress={props.handlePress}
         color={props.color}
       >
@@ -65,7 +63,7 @@ export default function STTextButton(props: Props) {
         }}>
           {props.children}
         </Text>
-      </STButton>
+      </CTButton>
     </View>
   )
 }

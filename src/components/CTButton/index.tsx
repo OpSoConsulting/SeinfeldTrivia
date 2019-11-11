@@ -1,6 +1,5 @@
 import React from 'react';
 import { 
-  Text, 
   TouchableOpacity,
   ViewProps,
 } from 'react-native';
@@ -13,7 +12,7 @@ export interface Props extends ViewProps {
   color?: 'white' | 'yellow' | 'green' | 'red';
 }
 
-const STButton = (props: Props) => {
+const CTButton = (props: Props) => {
 
   let colorStyle = styles.yellow;
 
@@ -45,4 +44,4 @@ const STButton = (props: Props) => {
   )
 }
 
-export default STButton;
+export default CTButton;

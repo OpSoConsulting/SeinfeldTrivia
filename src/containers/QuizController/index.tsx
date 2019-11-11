@@ -2,12 +2,11 @@
 import React from 'react';
 import { View, SafeAreaView, Text, Image, ScrollView, ActivityIndicator } from 'react-native';
 import styles from './styles';
-import STTextButton from '../../components/STTextButton';
-import { Question, PrismicQuestion, PrismicResponse } from './types';
+import STTextButton from '../../components/CTTextButton';
 import { NavigationFunction } from '../../../App';
-import questions from './questions';
-import constants from '../../constants';
-import Prismic from 'prismic-javascript';
+import * as questionsService from '../../services/questions';
+import { PrismicQuestion, PrismicAnswer } from '../../services/questions/types';
+import * as utils from '../../utils';
 
 
 interface Props  {
@@ -21,6 +20,7 @@ interface State {
   streak: number;
   correct: number;
   longestStreak: number;
+  loading: boolean;
 }
 
 class QuizController extends React.Component<Props, State> {
@@ -33,40 +33,70 @@ class QuizController extends React.Component<Props, State> {
       streak: 0,
       correct: 0,
       longestStreak: 0,
+      loading: false,
     };
   }
 
   async componentDidMount() {
-    const client = Prismic.client(constants.PRISMIC_API_ENDPOINT);
-
-    const response: PrismicResponse = await client.query(
-      Prismic.Predicates.at('document.type', 'question'),
-      {}
-    )
-
-    this.setState({ questions: response.results })
+    await this.loadQuestionSet();
   }
 
-  getCorrectAnswerIndex() {
-    const {
-      questions,
-      currentQuestionIndex,
-    } = this.state;
+  async loadQuestionSet() {
 
-    if (!questions) return;
+    try {
+      const questions = await questionsService.getQuestionSet({ numberOfQuestions: 10 });
 
-    const question = questions[currentQuestionIndex];
+      this.setState({ questions: this.shuffleAnswers(questions) })
+    } catch (err) {
+      this.props.navigate('error', {});
+    }
 
-    for (let i = 0; i < question.data.answers.length; i += 1) {
-      if (question.data.answers[i].is_correct === 'true') return i;
+  }
+
+  shuffleAnswers(questions: PrismicQuestion[]): PrismicQuestion[] {
+    return questions
+        .map(q => {
+          const shuffledAnswers = utils.shuffle(q.data.answers
+              .map((a, i) => ({ ...a, originalIndex: i }))
+          );
+
+          return {
+            ...q,
+            data: {
+              ...q.data,
+              answers: shuffledAnswers,
+            }
+          }
+        });
+  }
+
+  async clearResponses() {
+    this.setState({ loading: true });
+    try {
+      await questionsService.clearAnsweredQuestions();
+
+      await this.loadQuestionSet();
+    } catch (err) {
+      this.props.navigate('error', {});
+    }
+    this.setState({ loading: false });
+  }
+
+  getCorrectAnswerIndex(answers: PrismicAnswer[]) {
+
+    for (let i = 0; i < answers.length; i += 1) {
+      if (answers[i].is_correct === 'true') return i;
     }
   }
 
-  handleAnswerPress(response: number) {
+  handleAnswerPress(response: number, answers: PrismicAnswer[]) {
 
-    if (this.state.response) return;
+    if (this.state.response !== undefined || !this.state.questions) return;
 
-    const answeredCorrectly = response === this.getCorrectAnswerIndex();
+    const question = this.state.questions[this.state.currentQuestionIndex];
+
+    const answeredCorrectly = response === this.getCorrectAnswerIndex(answers);
+    questionsService.addAnsweredQuestion(question.id)
 
     let update = {};
 
@@ -139,8 +169,56 @@ class QuizController extends React.Component<Props, State> {
       </SafeAreaView>
     );
 
+
+    if (questions.length === 0) {
+      return (
+        <SafeAreaView style={styles.container}>
+          <View style={styles.padding}>
+            <Text style={styles.noQuestionsLeftHeader}>
+              You've answered all our questions!
+            </Text>
+            <Text style={styles.noQuestionsLeftSubheader}>
+              Check back in later to see if we've added more, or tap to add all the questions back.
+            </Text>
+            {
+              (this.state.loading) && (
+                <>
+                  <ActivityIndicator />
+                  <Text style={styles.noQuestionsLeftSubheader}>
+                    Clearing responses and reloading questions.
+                  </Text>
+                </>
+              )
+            }
+            <View style={styles.spacer} />
+            <View style={styles.bottomButtonRow}>
+              <View style={styles.buttonContainer}>
+                <STTextButton
+                  handlePress={() => this.clearResponses()}
+                  size="small"
+                >
+                  Clear Responses
+                </STTextButton>
+              </View>
+              <View style={styles.buttonContainer}>
+                <STTextButton
+                  handlePress={() => this.props.navigate('home', {})}
+                  size="medium"
+                  color="green"
+                >
+                  Main Menu
+                </STTextButton>
+              </View>
+            </View>
+          </View>
+        </SafeAreaView>
+      )
+    }
+
     const question = questions[currentQuestionIndex];
     const answered = response !== undefined;
+
+    const answers = question.data.answers;
 
     return (
       <SafeAreaView style={styles.container}>
@@ -171,13 +249,13 @@ class QuizController extends React.Component<Props, State> {
           </View>
           <View style={styles.answersContainer}>
             {
-              question.data.answers.map((answer, i) => (
+              answers.map((answer, i) => (
                 <View 
                   key={answer.text[0].text}
                   style={styles.buttonContainer}
                 >
                   <STTextButton
-                    handlePress={() => this.handleAnswerPress(i)}
+                    handlePress={() => this.handleAnswerPress(i, answers)}
                     color={(
                       answered ? (
                         answer.is_correct === 'true' ? 'green' : (

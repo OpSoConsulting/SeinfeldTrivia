@@ -1,11 +1,11 @@
 /* tslint:disable:max-line-length */
 import React from 'react';
-import { View, SafeAreaView, Text, Image } from 'react-native';
+import { View, SafeAreaView, Text, Image, Button, Linking } from 'react-native';
 import styles from './styles';
 import assets from './assets';
-import STButton from '../../components/STButton';
-import STTextButton from '../../components/STTextButton';
+import STTextButton from '../../components/CTTextButton';
 import { NavigationFunction } from '../../../App';
+import constants from '../../constants';
 
 
 interface Props  {
@@ -21,30 +21,50 @@ class Home extends React.Component<Props, State> {
     super(props);
 
     this.state = {};
+
+    this.rate = this.rate.bind(this);
+  }
+
+  async rate() {
+    try {
+      await Linking.openURL(`itms-apps://itunes.apple.com/us/app/id${constants.APP_STORE_LINK_ID}?mt=8`)
+    } catch (err) {
+      this.props.navigate('error', {});
+    }
   }
 
   public render() {
 
     return (
       <SafeAreaView style={styles.container}>
-        <Text style={styles.headline}>
-          Seinfeld {'\n'} Trivia
-        </Text>
-        <View style={styles.imageContainer}>
-          <Image
-            source={assets.festivusPole}
-            style={styles.festivusPole}
-          />
+        <View style={styles.padding}>
+          <Text style={styles.headline}>
+            Christmas {'\n'} Trivia
+          </Text>
+          <View style={styles.imageContainer}>
+            <Image
+              source={assets.christmasStocking}
+              style={styles.homeImage}
+            />
+          </View>
+          <View style={styles.buttonContainer}>
+            <STTextButton
+              handlePress={this.rate}
+              size="small"
+              color="white"
+            >
+              Rate Us!
+            </STTextButton>
+          </View>
+          <View style={styles.buttonContainer}>
+            <STTextButton
+              handlePress={() => this.props.navigate('quiz-controller', {})}
+              size="large"
+            >
+              Play Now
+            </STTextButton>
+          </View>
         </View>
-        <View style={styles.buttonContainer}>
-          <STTextButton
-            handlePress={() => this.props.navigate('quiz-controller', {})}
-            size="large"
-          >
-            Play Now
-          </STTextButton>
-        </View>
-        <View style={styles.bottomPadder} />
       </SafeAreaView>
     );
   }

@@ -3,8 +3,8 @@ import React from 'react';
 import { View, SafeAreaView, Text, Image } from 'react-native';
 import styles from './styles';
 import assets from './assets';
-import STButton from '../../components/STButton';
-import STTextButton from '../../components/STTextButton';
+import CTButton from '../../components/CTButton';
+import STTextButton from '../../components/CTTextButton';
 import { NavigationFunction } from '../../../App';
 
 

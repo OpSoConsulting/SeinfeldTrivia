@@ -14,7 +14,7 @@ import {
 } from 'react-native';
 import screens from './src/containers';
 
-type Screen = 'home' | 'quiz-controller' | 'end-quiz';
+type Screen = 'home' | 'quiz-controller' | 'end-quiz' | 'error';
 
 interface Props {}
 interface State {
@@ -66,6 +66,12 @@ export default class App extends React.Component<Props, State>  {
                     navigate={(screen, props) => this.navigate(screen, props)}
                     {...this.state.props}
                   />
+                case 'error':
+                  return <screens.ErrorPage
+                    navigate={(screen, props) => this.navigate(screen, props)}
+                    {...this.state.props}
+                  />
+
               }
             }
           )()

@@ -4,10 +4,12 @@ import theme from '../../theme/index';
 interface HomeStyles {
   container: ViewStyle;
   padding: ViewStyle;
-  headline: TextStyle;
+  header: TextStyle;
+  subheader: TextStyle;
   imageContainer: ViewStyle;
   homeImage: ImageStyle;
   buttonContainer: ViewStyle;
+  bottomPadder: ViewStyle;
 }
 
 export default StyleSheet.create<HomeStyles>({
@@ -22,10 +24,17 @@ export default StyleSheet.create<HomeStyles>({
     padding: 20,
     alignItems: 'center',
   },
-  headline: {
+  header: {
     fontFamily: 'Montserrat-Bold',
     color: 'white',
-    fontSize: 42,
+    fontSize: 36,
+    textAlign: 'center',
+    marginTop: 24,
+  },
+  subheader: {
+    fontFamily: 'Montserrat-Bold',
+    color: 'white',
+    fontSize: 18,
     textAlign: 'center',
     marginTop: 24,
   },
@@ -45,6 +54,8 @@ export default StyleSheet.create<HomeStyles>({
     flexDirection: 'row',
     paddingLeft: 20,
     paddingRight: 20,
-    marginBottom: 10,
   },
+  bottomPadder: {
+    height: 20,
+  }
 });

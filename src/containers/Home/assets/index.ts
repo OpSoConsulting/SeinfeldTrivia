@@ -1,5 +1,5 @@
-const festivusPole = require('./festivus_pole/festivus_pole.png');
+const christmasStocking = require('./christmas_stocking/christmas-stocking.png');
 
 export default {
-  festivusPole,
+  christmasStocking,
 }
