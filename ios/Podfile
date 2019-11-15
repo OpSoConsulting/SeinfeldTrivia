@@ -36,6 +36,8 @@ target 'SeinfeldTrivia' do
 
   pod 'RNRate', :path => '../node_modules/react-native-rate'
 
+  pod 'RNCAsyncStorage', :path => '../node_modules/@react-native-community/async-storage'
+
   target 'SeinfeldTriviaTests' do
     inherit! :search_paths
     # Pods for testing

@@ -1,7 +1,7 @@
 import Prismic from 'prismic-javascript';
 import { PrismicResponse, PrismicQuestion } from './types';
 import constants from '../../constants';
-import { AsyncStorage } from 'react-native';
+import AsyncStorage from '@react-native-community/async-storage';
 
 let questions: PrismicQuestion[] = [];
 let answeredQuestions: string[] = [];

@@ -14,7 +14,7 @@ import {
 } from 'react-native';
 import screens from './src/containers';
 
-type Screen = 'home' | 'quiz-controller' | 'end-quiz' | 'error';
+type Screen = 'home' | 'quiz-controller' | 'end-quiz' | 'error' | 'settings';
 
 interface Props {}
 interface State {
@@ -71,6 +71,12 @@ export default class App extends React.Component<Props, State>  {
                     navigate={(screen, props) => this.navigate(screen, props)}
                     {...this.state.props}
                   />
+                case 'settings':
+                  return <screens.Settings
+                    navigate={(screen, props) => this.navigate(screen, props)}
+                    {...this.state.props}
+                  />
+
 
               }
             }

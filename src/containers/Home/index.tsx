@@ -1,6 +1,6 @@
 /* tslint:disable:max-line-length */
 import React from 'react';
-import { View, SafeAreaView, Text, Image, Button, Linking } from 'react-native';
+import { View, SafeAreaView, Text, Image, Linking, TouchableOpacity } from 'react-native';
 import styles from './styles';
 import assets from './assets';
 import STTextButton from '../../components/CTTextButton';
@@ -38,6 +38,17 @@ class Home extends React.Component<Props, State> {
     return (
       <SafeAreaView style={styles.container}>
         <View style={styles.padding}>
+          <View style={styles.topRow}>
+            <TouchableOpacity
+              onPress={() => this.props.navigate('settings', {})}
+            >
+              <Image
+                source={assets.menuIcon}
+                style={styles.settingsIcon}
+              />
+            </TouchableOpacity>
+            <View style={styles.spacer} />
+          </View>
           <Text style={styles.headline}>
             Christmas {'\n'} Trivia
           </Text>

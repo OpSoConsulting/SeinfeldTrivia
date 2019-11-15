@@ -4,13 +4,14 @@ import theme from '../../theme/index';
 interface HomeStyles {
   container: ViewStyle;
   padding: ViewStyle;
-  spacer: ViewStyle;
-  topRow: ViewStyle;
-  settingsIcon: ImageStyle;
-  headline: TextStyle;
+  header: TextStyle;
+  kidsText: TextStyle;
+  padder: ViewStyle;
+  kidsModeRow: ViewStyle;
   imageContainer: ViewStyle;
   homeImage: ImageStyle;
   buttonContainer: ViewStyle;
+  bottomPadder: ViewStyle;
 }
 
 export default StyleSheet.create<HomeStyles>({
@@ -20,28 +21,31 @@ export default StyleSheet.create<HomeStyles>({
     backgroundColor: theme.colors.blue,
     alignItems: 'stretch',
   },
-  topRow: {
-    flexDirection: 'row',
-  },
-  spacer: {
-    flex: 1,
-  },
-  settingsIcon: {
-    height: 20,
-    width: 20,
-    resizeMode: 'contain'
-  },
   padding: {
     flex: 1,
     padding: 20,
     alignItems: 'center',
   },
-  headline: {
+  header: {
     fontFamily: 'Montserrat-Bold',
     color: 'white',
-    fontSize: 42,
+    fontSize: 36,
     textAlign: 'center',
     marginTop: 24,
+  },
+  kidsModeRow: {
+    flexDirection: 'row',
+    marginTop: 40,
+    alignItems: 'center',
+  },
+  padder: {
+    flex: 1,
+  },
+  kidsText: {
+    fontFamily: 'Montserrat-Bold',
+    color: 'white',
+    fontSize: 18,
+    textAlign: 'center',
   },
   imageContainer: {
     flex: 1,
@@ -59,6 +63,8 @@ export default StyleSheet.create<HomeStyles>({
     flexDirection: 'row',
     paddingLeft: 20,
     paddingRight: 20,
-    marginBottom: 10,
   },
+  bottomPadder: {
+    height: 20,
+  }
 });
