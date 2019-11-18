@@ -9,14 +9,12 @@
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* SeinfeldTriviaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SeinfeldTriviaTests.m */; };
 		07F3A03A4590472FAF88373A /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29FE364027FC4F769660BDB3 /* Montserrat-MediumItalic.ttf */; };
-		0B249BAA241736737E5A1111 /* libPods-SeinfeldTrivia-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86155723F1E98338EEB9EAAA /* libPods-SeinfeldTrivia-tvOS.a */; };
 		0BD081C293CD4E85A41A2933 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70195C74B1A043C69B426EC8 /* Montserrat-ExtraBold.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		265A3DAFFD0147CA9F7184DD /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F02B8CB2494D4943B92D5A47 /* Montserrat-ThinItalic.ttf */; };
-		2BDA873FF456FAC26DA5C4D0 /* libPods-SeinfeldTriviaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F1679E09973E4BAAAD637E7 /* libPods-SeinfeldTriviaTests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -26,17 +24,19 @@
 		3E0BA5EBA4574232B78A022D /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE83616233CA4A61B13189A8 /* Montserrat-Black.ttf */; };
 		44B9598563354DFEAA181119 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FA4485CF7CF40E89F2C7C63 /* Montserrat-Medium.ttf */; };
 		455979D1A9DD414FB6C4CE4E /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED13BE8FF39E44C995099CDE /* Montserrat-BoldItalic.ttf */; };
+		4CD5E17A0049A5F36DE050C2 /* libPods-SeinfeldTrivia-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 894BF70A5B1849571B3C390B /* libPods-SeinfeldTrivia-tvOS.a */; };
 		560846814C864796BE306F0B /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 75855F54163E4AB0BA41CB8B /* Montserrat-Bold.ttf */; };
 		79F3B0EFB75D48159086D5B4 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7F556325D23045D5BA32DABC /* Montserrat-Light.ttf */; };
+		8D5D62E2B92BF028A527271A /* libPods-SeinfeldTriviaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0047F88F896FB0951902242E /* libPods-SeinfeldTriviaTests.a */; };
 		8F070453444248FAA5B005CC /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A2101086FC9B490F89EF1258 /* Montserrat-Thin.ttf */; };
-		97EA63DE4E3DC63651F4A479 /* libPods-SeinfeldTrivia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D116A1D82E8775D8BB88F082 /* libPods-SeinfeldTrivia.a */; };
+		98578384A6C194F034D6F860 /* libPods-SeinfeldTrivia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EDFD9AE521D0A9B8EEB04F /* libPods-SeinfeldTrivia.a */; };
 		A06678E50817457EA68A58A2 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B48AEA33641049EDA11053ED /* Montserrat-ExtraLight.ttf */; };
 		B3BA4F0136334CA9AA745891 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAC28A294A3740229FD91C30 /* Montserrat-Regular.ttf */; };
 		CACAEA1AB78341A8BEFBAE09 /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A19AA59793E549C196EE5DD8 /* Montserrat-ExtraLightItalic.ttf */; };
 		D18D18FF04F94726B5BF8D97 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35B21F72D10C4138A1FD4D22 /* Montserrat-SemiBoldItalic.ttf */; };
 		D2C46F9C1A774395BAE3F0EE /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64CEB04848534D5F9677B8B2 /* Montserrat-SemiBold.ttf */; };
-		D54FCABE224D24161492DD74 /* libPods-SeinfeldTrivia-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B44B379CDAC8BA9E5D668CA /* libPods-SeinfeldTrivia-tvOSTests.a */; };
 		D80DF91AE4AF46B2B720568E /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65E1365FBA704254AD03890D /* Montserrat-LightItalic.ttf */; };
+		DC98964D39FE1F78F40569EA /* libPods-SeinfeldTrivia-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEEB0565DB52619BB20E4A47 /* libPods-SeinfeldTrivia-tvOSTests.a */; };
 		E6F92825284F45D9AF44BC72 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C79DA677F7E49D8A1259D56 /* Montserrat-Italic.ttf */; };
 /* End PBXBuildFile section */
 
@@ -58,10 +58,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0047F88F896FB0951902242E /* libPods-SeinfeldTriviaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SeinfeldTriviaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* SeinfeldTriviaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeinfeldTriviaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* SeinfeldTriviaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeinfeldTriviaTests.m; sourceTree = "<group>"; };
+		03807B9D4903FA26D6D063EF /* Pods-SeinfeldTrivia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeinfeldTrivia.release.xcconfig"; path = "Target Support Files/Pods-SeinfeldTrivia/Pods-SeinfeldTrivia.release.xcconfig"; sourceTree = "<group>"; };
+		133777F38D1B78466D935583 /* Pods-SeinfeldTrivia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeinfeldTrivia.debug.xcconfig"; path = "Target Support Files/Pods-SeinfeldTrivia/Pods-SeinfeldTrivia.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* SeinfeldTrivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeinfeldTrivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SeinfeldTrivia/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = SeinfeldTrivia/AppDelegate.m; sourceTree = "<group>"; };
@@ -73,34 +76,31 @@
 		29FE364027FC4F769660BDB3 /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-MediumItalic.ttf"; path = "../src/assets/fonts/Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* SeinfeldTrivia-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SeinfeldTrivia-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* SeinfeldTrivia-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SeinfeldTrivia-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		30F39CE446E35E37EEB8CF55 /* Pods-SeinfeldTrivia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeinfeldTrivia.release.xcconfig"; path = "Target Support Files/Pods-SeinfeldTrivia/Pods-SeinfeldTrivia.release.xcconfig"; sourceTree = "<group>"; };
 		35B21F72D10C4138A1FD4D22 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBoldItalic.ttf"; path = "../src/assets/fonts/Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
-		37822246886A80A96F2443CD /* Pods-SeinfeldTrivia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeinfeldTrivia.debug.xcconfig"; path = "Target Support Files/Pods-SeinfeldTrivia/Pods-SeinfeldTrivia.debug.xcconfig"; sourceTree = "<group>"; };
 		3C79DA677F7E49D8A1259D56 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Italic.ttf"; path = "../src/assets/fonts/Montserrat-Italic.ttf"; sourceTree = "<group>"; };
-		4B44B379CDAC8BA9E5D668CA /* libPods-SeinfeldTrivia-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SeinfeldTrivia-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FA4485CF7CF40E89F2C7C63 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Medium.ttf"; path = "../src/assets/fonts/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
-		561A3D5026E02D4A74399209 /* Pods-SeinfeldTrivia-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeinfeldTrivia-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-SeinfeldTrivia-tvOSTests/Pods-SeinfeldTrivia-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		57C5041076DF02A6162F52B9 /* Pods-SeinfeldTriviaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeinfeldTriviaTests.release.xcconfig"; path = "Target Support Files/Pods-SeinfeldTriviaTests/Pods-SeinfeldTriviaTests.release.xcconfig"; sourceTree = "<group>"; };
-		60031416251D5FEEB80169D2 /* Pods-SeinfeldTrivia-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeinfeldTrivia-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-SeinfeldTrivia-tvOSTests/Pods-SeinfeldTrivia-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		64CEB04848534D5F9677B8B2 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBold.ttf"; path = "../src/assets/fonts/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
 		65E1365FBA704254AD03890D /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-LightItalic.ttf"; path = "../src/assets/fonts/Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
 		70195C74B1A043C69B426EC8 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraBold.ttf"; path = "../src/assets/fonts/Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
 		75855F54163E4AB0BA41CB8B /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Bold.ttf"; path = "../src/assets/fonts/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
-		7F1679E09973E4BAAAD637E7 /* libPods-SeinfeldTriviaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SeinfeldTriviaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78381F288961BE6421E3F6BE /* Pods-SeinfeldTrivia-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeinfeldTrivia-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-SeinfeldTrivia-tvOSTests/Pods-SeinfeldTrivia-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		7BE2568E151CD066F707E460 /* Pods-SeinfeldTrivia-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeinfeldTrivia-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-SeinfeldTrivia-tvOS/Pods-SeinfeldTrivia-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		7F556325D23045D5BA32DABC /* Montserrat-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Light.ttf"; path = "../src/assets/fonts/Montserrat-Light.ttf"; sourceTree = "<group>"; };
-		86155723F1E98338EEB9EAAA /* libPods-SeinfeldTrivia-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SeinfeldTrivia-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80A492271C9C5E0CBB0481B8 /* Pods-SeinfeldTriviaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeinfeldTriviaTests.release.xcconfig"; path = "Target Support Files/Pods-SeinfeldTriviaTests/Pods-SeinfeldTriviaTests.release.xcconfig"; sourceTree = "<group>"; };
+		885DB99C1BD7D92F0F6721B5 /* Pods-SeinfeldTrivia-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeinfeldTrivia-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-SeinfeldTrivia-tvOSTests/Pods-SeinfeldTrivia-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		894BF70A5B1849571B3C390B /* libPods-SeinfeldTrivia-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SeinfeldTrivia-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		919EF87BAB564E8683705655 /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-BlackItalic.ttf"; path = "../src/assets/fonts/Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
 		A19AA59793E549C196EE5DD8 /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraLightItalic.ttf"; path = "../src/assets/fonts/Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
 		A2101086FC9B490F89EF1258 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Thin.ttf"; path = "../src/assets/fonts/Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		AEEB0565DB52619BB20E4A47 /* libPods-SeinfeldTrivia-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SeinfeldTrivia-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B48AEA33641049EDA11053ED /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraLight.ttf"; path = "../src/assets/fonts/Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
-		C4B2C1AC04495005CA9D4082 /* Pods-SeinfeldTrivia-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeinfeldTrivia-tvOS.release.xcconfig"; path = "Target Support Files/Pods-SeinfeldTrivia-tvOS/Pods-SeinfeldTrivia-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		CE44C1026A1272011438C405 /* Pods-SeinfeldTriviaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeinfeldTriviaTests.debug.xcconfig"; path = "Target Support Files/Pods-SeinfeldTriviaTests/Pods-SeinfeldTriviaTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D116A1D82E8775D8BB88F082 /* libPods-SeinfeldTrivia.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SeinfeldTrivia.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9EDFD9AE521D0A9B8EEB04F /* libPods-SeinfeldTrivia.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SeinfeldTrivia.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3807308CAFE006006C216CD /* Pods-SeinfeldTrivia-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeinfeldTrivia-tvOS.release.xcconfig"; path = "Target Support Files/Pods-SeinfeldTrivia-tvOS/Pods-SeinfeldTrivia-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		D3AA7F7315D19CFFAB5D1EB7 /* Pods-SeinfeldTriviaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeinfeldTriviaTests.debug.xcconfig"; path = "Target Support Files/Pods-SeinfeldTriviaTests/Pods-SeinfeldTriviaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED13BE8FF39E44C995099CDE /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-BoldItalic.ttf"; path = "../src/assets/fonts/Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		F02B8CB2494D4943B92D5A47 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ThinItalic.ttf"; path = "../src/assets/fonts/Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
-		F61F688068BF37B057338CBA /* Pods-SeinfeldTrivia-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeinfeldTrivia-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-SeinfeldTrivia-tvOS/Pods-SeinfeldTrivia-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		FAC28A294A3740229FD91C30 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Regular.ttf"; path = "../src/assets/fonts/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		FE83616233CA4A61B13189A8 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Black.ttf"; path = "../src/assets/fonts/Montserrat-Black.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -110,7 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BDA873FF456FAC26DA5C4D0 /* libPods-SeinfeldTriviaTests.a in Frameworks */,
+				8D5D62E2B92BF028A527271A /* libPods-SeinfeldTriviaTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,7 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97EA63DE4E3DC63651F4A479 /* libPods-SeinfeldTrivia.a in Frameworks */,
+				98578384A6C194F034D6F860 /* libPods-SeinfeldTrivia.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,7 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B249BAA241736737E5A1111 /* libPods-SeinfeldTrivia-tvOS.a in Frameworks */,
+				4CD5E17A0049A5F36DE050C2 /* libPods-SeinfeldTrivia-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,7 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D54FCABE224D24161492DD74 /* libPods-SeinfeldTrivia-tvOSTests.a in Frameworks */,
+				DC98964D39FE1F78F40569EA /* libPods-SeinfeldTrivia-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,10 +177,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				D116A1D82E8775D8BB88F082 /* libPods-SeinfeldTrivia.a */,
-				86155723F1E98338EEB9EAAA /* libPods-SeinfeldTrivia-tvOS.a */,
-				4B44B379CDAC8BA9E5D668CA /* libPods-SeinfeldTrivia-tvOSTests.a */,
-				7F1679E09973E4BAAAD637E7 /* libPods-SeinfeldTriviaTests.a */,
+				B9EDFD9AE521D0A9B8EEB04F /* libPods-SeinfeldTrivia.a */,
+				894BF70A5B1849571B3C390B /* libPods-SeinfeldTrivia-tvOS.a */,
+				AEEB0565DB52619BB20E4A47 /* libPods-SeinfeldTrivia-tvOSTests.a */,
+				0047F88F896FB0951902242E /* libPods-SeinfeldTriviaTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -222,14 +222,14 @@
 		A0BF5B74BB62ECD2824806D5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				37822246886A80A96F2443CD /* Pods-SeinfeldTrivia.debug.xcconfig */,
-				30F39CE446E35E37EEB8CF55 /* Pods-SeinfeldTrivia.release.xcconfig */,
-				F61F688068BF37B057338CBA /* Pods-SeinfeldTrivia-tvOS.debug.xcconfig */,
-				C4B2C1AC04495005CA9D4082 /* Pods-SeinfeldTrivia-tvOS.release.xcconfig */,
-				561A3D5026E02D4A74399209 /* Pods-SeinfeldTrivia-tvOSTests.debug.xcconfig */,
-				60031416251D5FEEB80169D2 /* Pods-SeinfeldTrivia-tvOSTests.release.xcconfig */,
-				CE44C1026A1272011438C405 /* Pods-SeinfeldTriviaTests.debug.xcconfig */,
-				57C5041076DF02A6162F52B9 /* Pods-SeinfeldTriviaTests.release.xcconfig */,
+				133777F38D1B78466D935583 /* Pods-SeinfeldTrivia.debug.xcconfig */,
+				03807B9D4903FA26D6D063EF /* Pods-SeinfeldTrivia.release.xcconfig */,
+				7BE2568E151CD066F707E460 /* Pods-SeinfeldTrivia-tvOS.debug.xcconfig */,
+				D3807308CAFE006006C216CD /* Pods-SeinfeldTrivia-tvOS.release.xcconfig */,
+				885DB99C1BD7D92F0F6721B5 /* Pods-SeinfeldTrivia-tvOSTests.debug.xcconfig */,
+				78381F288961BE6421E3F6BE /* Pods-SeinfeldTrivia-tvOSTests.release.xcconfig */,
+				D3AA7F7315D19CFFAB5D1EB7 /* Pods-SeinfeldTriviaTests.debug.xcconfig */,
+				80A492271C9C5E0CBB0481B8 /* Pods-SeinfeldTriviaTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -266,7 +266,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "SeinfeldTriviaTests" */;
 			buildPhases = (
-				F9D57AF705BBC9E1944D7388 /* [CP] Check Pods Manifest.lock */,
+				1698C51F6F59918F29707D82 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -285,7 +285,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "SeinfeldTrivia" */;
 			buildPhases = (
-				836FD66520D26F09418C12DD /* [CP] Check Pods Manifest.lock */,
+				5A994A9995269E74F8C4C980 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
@@ -305,7 +305,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "SeinfeldTrivia-tvOS" */;
 			buildPhases = (
-				989F18C5BC9AFAD466F6EAE1 /* [CP] Check Pods Manifest.lock */,
+				7FDAFE149937AAAB1104A1CB /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -325,7 +325,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "SeinfeldTrivia-tvOSTests" */;
 			buildPhases = (
-				406B9828462A3C8C6131959A /* [CP] Check Pods Manifest.lock */,
+				4F62408BBCF7BA0861AA0B68 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -456,6 +456,28 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
+		1698C51F6F59918F29707D82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SeinfeldTriviaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -470,7 +492,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		406B9828462A3C8C6131959A /* [CP] Check Pods Manifest.lock */ = {
+		4F62408BBCF7BA0861AA0B68 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -492,7 +514,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		836FD66520D26F09418C12DD /* [CP] Check Pods Manifest.lock */ = {
+		5A994A9995269E74F8C4C980 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -514,7 +536,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		989F18C5BC9AFAD466F6EAE1 /* [CP] Check Pods Manifest.lock */ = {
+		7FDAFE149937AAAB1104A1CB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -530,28 +552,6 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-SeinfeldTrivia-tvOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F9D57AF705BBC9E1944D7388 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SeinfeldTriviaTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -663,7 +663,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE44C1026A1272011438C405 /* Pods-SeinfeldTriviaTests.debug.xcconfig */;
+			baseConfigurationReference = D3AA7F7315D19CFFAB5D1EB7 /* Pods-SeinfeldTriviaTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -686,7 +686,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57C5041076DF02A6162F52B9 /* Pods-SeinfeldTriviaTests.release.xcconfig */;
+			baseConfigurationReference = 80A492271C9C5E0CBB0481B8 /* Pods-SeinfeldTriviaTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -706,14 +706,15 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37822246886A80A96F2443CD /* Pods-SeinfeldTrivia.debug.xcconfig */;
+			baseConfigurationReference = 133777F38D1B78466D935583 /* Pods-SeinfeldTrivia.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = 34CF848UT7;
 				INFOPLIST_FILE = SeinfeldTrivia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 2.1;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -727,13 +728,14 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 30F39CE446E35E37EEB8CF55 /* Pods-SeinfeldTrivia.release.xcconfig */;
+			baseConfigurationReference = 03807B9D4903FA26D6D063EF /* Pods-SeinfeldTrivia.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 34CF848UT7;
 				INFOPLIST_FILE = SeinfeldTrivia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 2.1;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -747,7 +749,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F61F688068BF37B057338CBA /* Pods-SeinfeldTrivia-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 7BE2568E151CD066F707E460 /* Pods-SeinfeldTrivia-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -775,7 +777,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4B2C1AC04495005CA9D4082 /* Pods-SeinfeldTrivia-tvOS.release.xcconfig */;
+			baseConfigurationReference = D3807308CAFE006006C216CD /* Pods-SeinfeldTrivia-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -803,7 +805,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 561A3D5026E02D4A74399209 /* Pods-SeinfeldTrivia-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 885DB99C1BD7D92F0F6721B5 /* Pods-SeinfeldTrivia-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -830,7 +832,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60031416251D5FEEB80169D2 /* Pods-SeinfeldTrivia-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 78381F288961BE6421E3F6BE /* Pods-SeinfeldTrivia-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;

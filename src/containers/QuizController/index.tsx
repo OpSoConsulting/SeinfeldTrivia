@@ -160,7 +160,7 @@ class QuizController extends React.Component<Props, State> {
 
     if (!questions) return (
       <SafeAreaView style={styles.container}>
-        <View style={styles.padding}>
+        <View style={{ ...styles.padding, ...styles.loadingContainer }}>
           <ActivityIndicator />
           <Text style={styles.loadingText}>
             Loading questions
@@ -178,7 +178,10 @@ class QuizController extends React.Component<Props, State> {
               You've answered all our questions!
             </Text>
             <Text style={styles.noQuestionsLeftSubheader}>
-              Check back in later to see if we've added more, or tap to add all the questions back.
+              If you're excluding certain topics, remove those filters to see more questions.
+            </Text>
+            <Text style={styles.noQuestionsLeftSubheader}>
+              You can also check back in later to see if we've added more, or tap to add all the questions back.
             </Text>
             {
               (this.state.loading) && (

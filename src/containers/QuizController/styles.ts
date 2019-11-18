@@ -4,6 +4,7 @@ import theme from '../../theme/index';
 interface HomeStyles {
   container: ViewStyle;
   padding: ViewStyle;
+  loadingContainer: ViewStyle;
   topRow: ViewStyle;
   leftColumn: ViewStyle;
   rightColumn: ViewStyle;
@@ -46,10 +47,15 @@ export default StyleSheet.create<HomeStyles>({
     flex: 1,
     alignItems: 'flex-end',
   },
+  loadingContainer: {
+    paddingTop: 40,
+  },
   loadingText: {
     color: 'white',
     fontFamily: 'Montserrat-Medium',
     textAlign: 'center',
+    fontSize: 18,
+    marginTop: 20,
   },
   noQuestionsLeftHeader: {
     color: 'white',

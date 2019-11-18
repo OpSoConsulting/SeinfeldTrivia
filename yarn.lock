@@ -1872,6 +1872,10 @@ domexception@^1.0.1:
   dependencies:
     webidl-conversions "^4.0.2"
 
+dooboolab-welcome@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/dooboolab-welcome/-/dooboolab-welcome-1.1.1.tgz#ca2184f6e1f568865d707a6ce3bda7e003550f54"
+
 ecc-jsbn@~0.1.1:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/ecc-jsbn/-/ecc-jsbn-0.1.2.tgz#3a83a904e54353287874c564b7549386849a98c9"
@@ -4396,9 +4400,11 @@ react-is@^16.8.1, react-is@^16.8.4, react-is@^16.9.0:
   version "16.11.0"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.11.0.tgz#b85dfecd48ad1ce469ff558a882ca8e8313928fa"
 
-react-native-rate@^1.1.10:
-  version "1.1.10"
-  resolved "https://registry.yarnpkg.com/react-native-rate/-/react-native-rate-1.1.10.tgz#278098fad536fba71fdedb6aab71278aa0946ced"
+react-native-iap@^4.3.0:
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/react-native-iap/-/react-native-iap-4.3.0.tgz#ed37d8a59d7df9fdc64e0c873a1808183a27b822"
+  dependencies:
+    dooboolab-welcome "^1.1.1"
 
 react-native@0.61.4:
   version "0.61.4"

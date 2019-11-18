@@ -48,6 +48,14 @@ class Home extends React.Component<Props, State> {
               />
             </TouchableOpacity>
             <View style={styles.spacer} />
+            <TouchableOpacity
+              onPress={() => this.props.navigate('gift', {})}
+            >
+              <Image
+                source={assets.giftIcon}
+                style={styles.settingsIcon}
+              />
+            </TouchableOpacity>
           </View>
           <Text style={styles.headline}>
             Christmas {'\n'} Trivia

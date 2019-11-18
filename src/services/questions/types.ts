@@ -10,11 +10,14 @@ export interface PrismicResponse {
   total_pages: number;
 }
 
+type Tag = 'kids';
+
 export interface PrismicQuestion {
   id: string;
   data: {
     question_text: PrismicText[];
-    answers: PrismicAnswer[]
+    answers: PrismicAnswer[];
+    tags: { tag: 'kid' | string }[];
   }
 }
 
